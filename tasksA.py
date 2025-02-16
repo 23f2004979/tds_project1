@@ -11,10 +11,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AIPROXY_TOKEN = os.getenv('AIPROXY_TOKEN')
+AIPROXY_TOKEN = os.getenv('eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDQ5NzlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.1g8mrVcDqOGCiVa-NbC7vTpkb-t4MmADwUiIfYQ_SRI')
 
 
-def A1(email="xxxxxxxxx@ds.study.iitm.ac.in"):
+def A1(email="23f2004979@ds.study.iitm.ac.in"):
     try:
         process = subprocess.Popen(
             ["uv", "run", "https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/project-1/datagen.py", email],
