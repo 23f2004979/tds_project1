@@ -84,7 +84,7 @@ def ask(prompt: str):
     return result
 
 openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions" # for testing
-openai_api_key = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDQ5NzlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.1g8mrVcDqOGCiVa-NbC7vTpkb-t4MmADwUiIfYQ_SRI")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 print(openai_api_key)
 
 headers = {
